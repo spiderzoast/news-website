@@ -7,12 +7,13 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Header Section: Contains the website's title -->
+    <!-- Header Section -->
     <header>
         <h1>Hypothetical News Network</h1>
+        <p>Delivering the latest news from around the world</p>
     </header>
 
-    <!-- Navigation Menu: Links to different sections of the website -->
+    <!-- Navigation Menu -->
     <nav>
         <a href="#">Home</a>
         <a href="#">World</a>
@@ -22,30 +23,45 @@
         <a href="#">Tech</a>
     </nav>
 
+    <!-- Main Content Area -->
     <div class="container">
-        <!-- Main Article Section: Displays the primary news story -->
+        <!-- Main Article Section -->
         <section class="main-article">
-            <h2>Main News Title</h2>
-            <img src="images/main-news.jpg" alt="Main news image" style="width:100%; height:auto; margin-bottom:1rem;">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae tincidunt lacus. Ut nec erat ut dolor placerat ullamcorper.</p>
+            <div class="image-container">
+                <img src="images/main-news.jpg" alt="Main news image">
+                <div class="text-overlay">
+                    <h2>Main News Title</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae tincidunt lacus.</p>
+                </div>
+            </div>
+            <p class="article-summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae tincidunt lacus. Ut nec erat ut dolor placerat ullamcorper. Curabitur ac lacus sit amet lorem placerat dapibus.</p>
+            <a href="#" class="read-more">Read more...</a>
         </section>
 
-        <!-- Side News Section: Displays two smaller news stories stacked vertically -->
+        <!-- Side News Section -->
         <aside class="side-news">
-            <div>
-                <h3>Small News 1</h3>
-                <img src="images/small-news-1.jpg" alt="Small news 1 image" style="width:100%; height:auto; margin-bottom:0.5rem;">
-                <p>Short description of the news content goes here.</p>
+            <div class="side-news-item">
+                <div class="image-container">
+                    <img src="images/small-news-1.jpg" alt="Small news 1 image">
+                    <div class="text-overlay">
+                        <h3>Small News 1</h3>
+                    </div>
+                </div>
+                <p class="side-news-summary">Short description of the news content goes here.</p>
             </div>
-            <div>
-                <h3>Small News 2</h3>
-                <img src="images/small-news-2.jpg" alt="Small news 2 image" style="width:100%; height:auto; margin-bottom:0.5rem;">
-                <p>Another short description of the news content goes here.</p>
+            <div class="side-news-item">
+                <div class="image-container">
+                    <img src="images/small-news-2.jpg" alt="Small news 2 image">
+                    <div class="text-overlay">
+                        <h3>Small News 2</h3>
+                    </div>
+                </div>
+                <p class="side-news-summary">Another short description of the news content goes here.</p>
             </div>
         </aside>
     </div>
 
-    <!-- Footer Section: Contains copyright information -->
+    <!-- Footer Section -->
     <footer>
         <p>&copy; 2025 Hypothetical News Network. All Rights Reserved.</p>
     </footer>
