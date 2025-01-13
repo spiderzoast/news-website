@@ -1,0 +1,75 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* Navigation Styling */
+nav {
+  background-color: #555;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 0.5rem 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem;
+}
+
+nav a:hover {
+  background-color: #777;
+}
+
+/* Main Content Container */
+.container {
+  display: flex;
+  margin: 1rem;
+}
+
+/* Main Article Styling */
+.main-article {
+  flex: 2;
+  background-color: #f4f4f4;
+  padding: 1rem;
+  margin-right: 1rem;
+}
+
+/* Side News Styling */
+.side-news {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.side-news div {
+  background-color: #e4e4e4;
+  padding: 1rem;
+}
+
+/* Footer Styling */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 1rem;
+}
